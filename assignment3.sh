@@ -1,9 +1,8 @@
 #!/bin/sh
-minnum=1
 
-if [ -z $1 ] || [ -z $2 ] || [ $1 -lt $minnum ] || [ $2 -lt $minnum ]
+if [ -z $1 ] || [ -z $2 ] || [ $1 -lt 0 ] || [ $2 -lt 0 ]
 then
-	echo "Please input 2 numbers between "$minnum" and "$maxnum
+	echo "Please input 2 positive numbers"
 	exit 1
 fi
 
