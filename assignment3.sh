@@ -1,6 +1,6 @@
 #!/bin/sh
 
-if [ -z $1 ] || [ -z $2 ] || [ $1 -lt 0 ] || [ $2 -lt 0 ]
+if [ -z $1 ] || [ -z $2 ] || [ $1 -lt 1 ] || [ $2 -lt 1 ]
 then
 	echo "Please input 2 positive numbers"
 	exit 1
